@@ -9,12 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class CseController {
 	@GetMapping("/home")
 	public String disk() {
-		return "Welcome to CSE jenkins";
+		return "Created by 23MH1A05H3";
 	}
 	@GetMapping("/cse")
 	public String disk2() {
-		return "Welcome to Aditya University";
+		return "ORGANISED BY 23MH1A05H3";
 	}
-	
-
 }
